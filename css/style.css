@@ -1,18 +1,18 @@
 /* FONTS */
 
-@import url@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,200;1,800&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;1,200;1,800&family=Pacifico&display=swap');
 
 /* GLOBAL STYLES */
 
 :root {
-  --font-primary: 'Kanit', sans-serif;
-  --font-secondary: 'Pacifico', cursive;
+  --font-primary: 'Kanit', italic;
+  --font-secondary: 'Pacifico', normal;
   --font-code: 'Roboto', monospace;
   --bg-color: #000000;
-  --font-color: #00e1ff;
-  --btn-bg-color: #00e1ff;
-  --accent-color: #ffffff;
-  --header-shadow: #000 0px 0px 5px;
+  --font-color: #888888;
+  --btn-bg-color: #cecece;
+  --accent-color: #414040;
+  --header-shadow: rgb(0, 225, 255) 0px 0px 20px;
 }
 
 * {
